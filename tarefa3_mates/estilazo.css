@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* Selector por etiqueta */
+
+
+div {
+	outline: 1px solid blue;
+	/*h100*/
+	height: 100px;
+}
+
+
+/* Selector por clase */
+
+.caja {
+		/*p50*/
+		padding: 50px;
+		/*fz30*/
+		font-size: 30px;
+}
+
+
+
+/* Selector por Identidad */
+
+
+#caja1 {
+	/*bgc*/
+	background-color: orange;
+}
+#caja2 {
+	/*bgc*/
+	background-color: yellow;
+}
+#caja3 {
+	/*bgc*/
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Modificadores */
+
+
+
+.caja:hover {
+	background-color: black !important;
+	color: white;
+}
+
+
+#numero-aleatorio{
+  padding:100px 0;
+  font-size:200px;
+  font-weight: 700;
+  text-align:center;
+  line-height:100px;
+}
+
+
+
+
+
+.nuevaclase {
+	font-family: Courier !important;
+}
+{
+      margin: 0;
+      padding: 0;
+    }
+    #espacioSuperior
+    {
+      background-color: #E6E6E6;
+    }
+    #contenedorPagina
+    {
+      margin: 0 auto;
+      border: 1px solid #9900CC;
+      height: 85%;
+    }
+    
+    #encabezado
+    {
+      height: 50px;
+      background-color: #FF3300;
+    }
+    #aLaIzquierda
+    {
+      width: 20%;
+      height: 500px;
+      float: left;
+      background-color: #0066FF;
+    }
+    #contenidoPrincipal
+    {
+      width: 60%;
+      float: left;
+      background-color: #FFFFFF;
+    }
+    #aLaDerecha
+    {
+      width: 20%;
+      height: 500px;
+      float: right;
+      background-color: #006600;
+    }
+    #piePagina
+    {
+      clear: both;
+      height: 25px;
+      background-color: #CC6699;
+    }
+	
+body{
+  font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+  text-align:center;
+  cursor: pointer;
+  user-select: none;
+}

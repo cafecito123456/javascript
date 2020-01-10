@@ -1,0 +1,18 @@
+alert("moy boas a todos");
+alert("2+2");
+alert(2+2);
+var uno = 0.2222 ;
+var dos = 0.3333 ;
+var tres = 0.4444 ;
+var cuatro = uno + dos + tres;
+var ala = Math.sqrt( 0.2222 );
+var bee =  Math.pow( 0.3333, 2); 
+var cc = Math.PI.toFixed(2);
+var ded = Math.min(ala, bee, cc);
+var ess = Math.random(0, 3);
+var es = Math.floor(ess);
+alert (ala);
+alert (bee);
+alert (cc);
+alert (ded);
+alert (es);
